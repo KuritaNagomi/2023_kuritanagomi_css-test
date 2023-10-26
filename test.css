@@ -1,0 +1,53 @@
+.header__logo{
+    color: navy;
+    font-size: 30px;
+    font-weight: bold;
+}
+
+ul{
+    text-align: right;
+}
+
+li{
+    display: inline-block;
+    color: navy;
+    margin-right: 0px;
+    font-weight: bold;
+}
+
+a{
+    color: navy;
+}
+
+main{
+    position: relative;
+}
+
+.first-view{
+    display: block;
+    padding: 50px o;
+    width: 50vw;
+    margin: 50px 0 50px auto;
+    z-index: 10;
+}
+
+.first-view img{
+    width: 100%;
+}
+
+.first-view__ttl{
+    position: absolute;
+    top: 200px;
+    font-size: 50px;
+    z-index: 0;
+}
+
+.first-view__box{
+    position: absolute;
+    top: 250px;
+    width: 70vw;
+    height: 15vw;
+    background-color: navy;
+    display: block;
+    z-index: -10;
+}
